@@ -84,6 +84,7 @@ html{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
     margin-top: 24px;
+    text-align: justify;
 }
 
 .vision-card{
@@ -147,7 +148,6 @@ html{
 
 .btn2-bgc{
     background-color: rgba(9, 161, 92, 1);
-    margin-top: 22px;
     cursor: pointer;
 }
 
@@ -166,7 +166,7 @@ html{
 }
 
 .quotetion{
-    height: 240px;
+    height: 280px;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
     background-image: url('quote-bg.png');
@@ -182,12 +182,12 @@ html{
     line-height: 20px;
     color: rgba(14, 14, 14, 0.8);
     padding: 35px 24px 12px 24px;
+    text-align: justify;
 }
 
 .hfive-tag{
     font-weight: 400px;
     font-size: 20px;
-    line-height: 2px;
     color: rgba(14, 14, 14, 0.8);
     padding: 0px 24px;
 }
@@ -226,29 +226,29 @@ html{
 }
 .recent-card-content h1{
     font-weight: bold;
-    font-size: 28px;
+    font-size: 27px;
     color: rgba(14, 14, 14, 0.8);
 }
 
 .recent-card-content img{
     height: 30px;
     width: 134px;
-    padding-bottom: 9px;
+    padding-bottom: 3px;
 }
 
 .recent-card-content date-time{
     font-weight: 400px;
-    font-size: 16px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 8px;
     color: rgba(14, 14, 14, 0.7);
-    padding-bottom: 12px;
+    padding-bottom: 5px;
     
 }
 
 .recent-card-content-para2{
     font-weight: 400px;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 18px;
     color: rgba(14, 14, 14, 0.7);
     
 }
@@ -291,7 +291,7 @@ html{
     margin-top: 24px;
 }
 .donate-card-parent{
-    height: 128px;
+    height: 210px;
     width: 1071px;
     display: flex;
     flex-direction: row;
@@ -304,7 +304,7 @@ html{
     font-weight: bold;
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
-    height: 100px;
+    height: 165px;
     width: 190px;
     background-color: rgba(255, 255, 255, 1);
     align-items: center;
@@ -318,7 +318,7 @@ html{
     font-weight: bold;
     font-size: 40px;
     color: rgba(14, 14, 14, 0.8);
-    height: 100px;
+    height: 165px;
     width: 190px;
     background-color: rgba(198, 228, 214, 1);
     align-items: center;
@@ -364,4 +364,77 @@ html{
     border-radius: 8px;
     background-color: rgba(0, 106, 80, 1);
     border: none;
+}
+
+.donate-btn:hover{
+    background-color: rgba(11, 211, 167, 0.993);
+}
+
+.subscription{
+    height: 380px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    
+}
+
+.subscription-h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.subscription-para{
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    max-width: 622px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subs-para2{
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.subscription input{
+    width: 600px;
+    height: 55px;
+    padding-left: 40px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+
+.subscription button{
+    width: 150px;
+    height: 56px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.subs-div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscription button:hover{
+    background-color: rgb(6, 155, 98);
 }
