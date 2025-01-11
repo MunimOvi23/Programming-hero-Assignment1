@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 } */
-
+html{
+    background: rgba(245, 245, 245, 1);
+}
 .common{
     max-width: 1120px;
     margin: 0 auto;
@@ -61,7 +63,7 @@
 }
 
 .vision{
-    margin-top: 45px;
+    margin-top: 60px;
     
 }
 .vision h1{
@@ -74,6 +76,81 @@
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
-    color: #0e0e0eb4;
+    color: rgba(14, 14, 14, 0.7);
     margin-top: 24px;
+}
+
+.vision-card{
+    margin-top: 24px;
+}
+.vision-card .card{
+    width: 411px;
+    height: 275px;
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card2{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card3{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.card-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card h5{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.card-btn-common{
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn1-bgc{
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.btn2-bgc{
+    background-color: rgba(9, 161, 92, 1);
+    margin-top: 22px;
+}
+
+.btn3-bgc{
+    background-color: rgba(255, 194, 57, 1);
+}
+
+.quotetion{
+    height: 256px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('quote-bg.png');
+    background-repeat: no-repeat;
 }
